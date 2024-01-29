@@ -1,0 +1,198 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  margin: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos para la página de inicio */
+#banner {
+  background-image: url('fondo.png');
+  background-size: cover;
+  background-position: center;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+#banner h2,
+#banner p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 1px #333;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+/* Estilos para la página de productos (Catálogos) */
+#productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.catalogo {
+  width: calc(50% - 20px);
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.catalogo img {
+  width: 100%;
+  height: auto;
+}
+
+.catalogo p {
+  margin-top: 10px;
+  color: #333;
+}
+
+.titulo-productos {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Estilos para la página de contacto */
+#contacto {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+.social-media {
+  font-size: 24px;
+}
+
+.social-media a {
+  color: #333;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+  color: #555;
+}
+
+/* Estilos para las páginas de productos */
+#ropa-hombre h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.btn::before {
+  content: "\2190";
+  margin-right: 5px;
+}
+
+#productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.producto {
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.producto p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.ubicacion {
+  margin-top: 30px;
+}
+
+.ubicacion iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
